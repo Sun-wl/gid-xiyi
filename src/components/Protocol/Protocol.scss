@@ -1,0 +1,50 @@
+:global {
+  .protocol{
+    font-size: 12px;
+    padding: 10px 0px 0px 15px;
+  }
+
+  .protocol a{
+    text-decoration: underline;
+  }
+  .protocol-content {
+    width: 100%;
+    fontSize: 12px !important;
+    background: #ffffff;
+    padding: 10px 8px 10px 11px;
+    padding-bottom: 60px;
+    padding-top: 23px;
+    color: #767676;
+  }
+
+  .about-us{
+    background: #ffffff;
+    height:100%;
+  }
+
+  .about-us .body{
+    text-align: center;
+    padding-top:50%;
+  }
+
+  .about-us .body div{
+    line-height: 50px;
+    border: 1px solid #e3e3e3;
+  }
+
+  .about-us .body div:last-child{
+    border-top:0px;
+  }
+
+  .about-us .footer{
+
+    padding-top:40%;
+    padding-bottom: 44%;
+    bottom: 15%;
+    text-align: center;
+    width: 100%;
+  }
+
+
+}
+

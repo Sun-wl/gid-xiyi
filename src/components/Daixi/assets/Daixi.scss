@@ -1,0 +1,68 @@
+:global {
+  @import '../../../styles/config.scss';
+  .daixi {
+    padding-top: 10px;
+    .info1 {
+      padding: 8px 0px 20px;
+      font-size: 0px;
+      text-align: center;
+      .itemImg {
+        font-size: 0px;
+        width: 50px;
+        height: 65px;
+        display: inline-block;
+        margin-right: 35px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .price {
+        display: inline-block;
+        line-height: 2;
+        font-size: 12px;
+        vertical-align: middle;
+        padding-left: 40px;
+        text-align: left;
+        @extend %borderline-left;
+        .cur {
+          color: #f69322;
+          font-size: 14px;
+        }
+
+      }
+    }
+    .info2 {
+      border: 1px dashed $mcolor;
+      border-radius: 4px;
+      .item {
+        width: 33.333%;
+        padding: 12px 10px;
+        float: left;
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        .symbol {
+          position: absolute;
+          top: 22px;
+          right: -3px;
+        }
+        .itemImg {
+          font-size: 0px;
+          width: 35px;
+          height: 35px;
+          display: inline-block;
+          margin-bottom: 12px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .cur {
+          color: $mcolor;
+        }
+      }
+    }
+  }
+
+}

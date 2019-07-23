@@ -1,0 +1,125 @@
+:global {
+
+
+.time-select {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  min-height: 260px;
+  background: #fff;
+  z-index: 999999999;
+}
+
+.time-select .disable{
+  background: #f3f3f4;
+  color: #bdbec0;
+}
+
+
+.time-select .title {
+  padding: 10px 20px;
+  line-height: 21px;
+  text-align: center;
+  color: #767676;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #cdcdcf;
+}
+
+.time-select .title .name {
+  font-size: 15px;
+  color: #000;
+}
+
+.time-select .body .date {
+  padding: 18px 20px 20px 20px;
+  color: #777778;
+  font-size: 12px;
+  width: 370px;
+  height: 85px;
+}
+
+.time-select .body .dateJingXi {
+  width: 590px !important;
+}
+
+.time-select .body .date .choose {
+  border: 1px solid #09b9ad !important;
+  color: #000;
+  border-radius: 7px;
+  position: relative;
+}
+
+.time-select .body .date .choose:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 46px;
+  border: 12px solid;
+  border-color: #09b9ad transparent transparent;
+}
+.time-select .body .date .choose:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 44px;
+  border: 12px solid;
+  border-color: #fff transparent transparent;
+}
+
+.time-select .body .date .item{
+  float: left;
+  width:100px;
+  text-align: center;
+  padding:7px;
+  border-radius: 5px;
+}
+
+.time-select .body .date .item{
+  margin-right: 11px;
+}
+
+.time-select .body .date .item:last-child{
+  margin-right: 0px;
+}
+
+.time-select .body .date .item div{
+  line-height: 16px;
+}
+
+.time-select .body .time{
+  border-top: 1px solid #cfd0d2;
+  font-size: 12px;
+  color: #9d9b9b;
+  padding: 20px 15px;
+}
+
+.time-select .body .time .choose{
+  color: #000;
+  border: 1px solid #09b9ad !important;
+}
+
+.time-select .body .time .item {
+  border: 1px solid #dcdcdd;
+  float: left;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 33%;
+  text-align: center;
+}
+
+.time-select .body .time .item:nth-child(2){
+  border-left: 0px;
+}
+
+  .time-select .body .time .item:nth-child(3){
+    border-left: 0px;
+  }
+
+
+}

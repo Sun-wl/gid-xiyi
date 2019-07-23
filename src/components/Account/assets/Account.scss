@@ -1,0 +1,70 @@
+:global {
+  $width-100: 100%;
+  $bdcolor: rgba(35,31,32,0.8);
+  .account-btn {
+    display: -webkit-box;
+    width: $width-100;
+    margin: 10px 0px;
+    .account-btn-item {
+      display: block;
+      -webkit-box-flex: 1;
+      width:1%;
+      -webkit-tap-highlight-color: transparent;
+      text-align: center;
+      font-size: 13px;
+      color: #767676;
+      position: relative;
+      background: $bdcolor;
+      padding-bottom:22px;
+      Img {
+        height: 30px;
+        margin-top:26px;
+        margin-bottom:15px;
+      }
+      p{
+        line-height: 1;
+      }
+      &:after {
+        content: " ";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1px;
+        height: $width-100;
+        border-right: 1px solid rgba(147,149,152,0.5);
+        color: rgba(147,149,152,0.5);
+        transform-origin: 100% 0 0;
+        transform: scaleX(0.5);
+      }
+    }
+    .border-right-none {
+      &:after {
+        content: " ";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 0px !important;
+        height: 100%;
+        border-right: 0px solid #bcbec0 !important;
+        color: #bcbec0;
+        transform-origin: 100% 0 0;
+        transform: scaleX(0.5);
+      }
+    }
+  }
+  .account-bindphone {
+    color: #fff;
+    font-size: 12px;
+    line-height: 3.7;
+    background: $bdcolor;
+    padding:0px 10px;
+    position: relative;
+    display: block;
+    img{
+      position: absolute;
+      height:10px;
+      right:10px;
+      top:17px;
+    }
+  }
+}

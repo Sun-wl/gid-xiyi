@@ -1,0 +1,23 @@
+﻿.datetitlebody, div, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding:0;margin:0; }
+ul,li{ list-style: none;list-style-type:none;}
+.page {display: block;position: absolute;;left: 0;right: 0;bottom:0;width: 100%;overflow: hidden;}
+
+.datescroll div{float: left;margin-left: 0%;margin-top: 10px;}
+.yearwrapper{position: absolute;left: 0;top:45px;bottom: 60px;width:50%;}
+.monthwrapper{position: absolute;left: 42%;top:45px;bottom: 60px;width:50%;}
+/*增加手指滑动触摸面积*/
+.yearwrapper ul li{color: #898989;font-size: 14px;}
+.monthwrapper ul li{color: #898989;font-size: 14px;}
+.markyear{position:relative; margin-left: 76px;top:-2px;}
+.markmonth{position:relative; margin-left: 40px;top:-2px;}
+.dateheader{width: 100%;height: 50px;background: #79C12F;text-align: center;color: #fff;line-height: 50px;font-size: 20px;}
+.dateshadow{display: block;position: fixed;width: 100%;height: 100%;top:0;left:0;background: #000; filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;z-index: 100}
+.datePage{font-size: 22px; position:fixed;margin-right: auto;vertical-align:middle;margin-left: auto;width: 100%;;height: 240px;background: #FFFFFF;z-index:9999999;}
+.datetitle{width: 100%;height:40px;background: #cbcccd;color: #FF34A350;line-height: 40px;font-size: 15px;}
+.datemark{font-size: 18px;width: 100%;height: 40px;position:absolute;top:108px;background:#eee;border:1px solid #eee;}
+.datescroll{background: #F8F8F8;width:100%;border: 1px solid #E0E0E0;height: 208px;text-align: center;line-height: 40px;}
+.yearwrapper ul{width:100%;}
+/*.monthwrapper ul{width:30%;}*/
+
+.citywrapper {  position: absolute;left: 0; top:45px; bottom: 60px;width:100%;}
+.citywrapper ul li{color: #898989;font-size: 14px;}

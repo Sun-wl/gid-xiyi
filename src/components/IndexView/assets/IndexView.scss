@@ -1,0 +1,222 @@
+:global {
+  @import '../../../styles/config.scss';
+  $bdcolor: rgba(35,31,32,0.8);
+  .banner {
+    width: 100%;
+    text-align: center;
+    line-height: 135px;
+    margin-bottom: 10px;
+  }
+  .banner a{
+    width: 100%;
+    display: block;
+    font-size: 0;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .mjingxi {
+    width: 100%;
+    position: relative;
+    color: #767676;
+    font-size: 13px;
+    display: block;
+    border-bottom: 1px solid #222;
+    position: relative;
+    min-height:100px;
+  }
+  .mjingxi .bgimage {
+    width: 100%;
+  }
+  .mjingxi-content {
+    height: 60px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -30px;
+    margin-left: -125px;
+  }
+  .mjingxi-content img {
+    width:40px;
+    float:left;
+    margin-top: 4px;
+    margin-right: 20px;
+  }
+  .mjingxi-content .mjingxi-text {
+    width: 190px;
+    float:left;
+  }
+  .mjingxi-text p:nth-child(1){
+    font-size:14px;
+    color:#fff;
+    line-height: 1.7;
+  }
+  .mjingxi-text p:nth-child(2){
+    font-size:12px;
+    color:#bcbec0;
+  }
+  .mxiyi {
+    width: 100%;
+    color: #767676;
+    font-size: 13px;
+    display: block;
+    position: relative;
+    min-height:100px;
+  }
+  .mxiyi .bgimage {
+    width: 100%;
+  }
+  .mxiyi-content {
+    height: 60px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -30px;
+    margin-left: -125px;
+  }
+  .mxiyi-content img {
+    width:40px;
+    float:left;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .mxiyi-content .mxiyi-text {
+    width: 190px;
+    float:left;
+  }
+  .mxiyi-content .mxiyi-text p:nth-child(1){
+    font-size:14px;
+    color:#fff;
+    line-height: 1.7;
+  }
+  .mxiyi-content .mxiyi-text p:nth-child(2){
+    font-size:12px;
+    color:#bcbec0;
+  }
+
+  .banner-fa {
+    position: relative;
+  }
+  .banner-icon {
+    position: absolute;
+    width: 52px;
+    height: 8px;
+    left: 50%;
+    bottom: 8px;
+    margin-left: -26px;
+    z-index: 2;
+  }
+  .banner-icon .banner-icon-item {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #949597;
+    float: left;
+    margin: 0 5px;
+  }
+  .banner-icon .cur {
+    background: #fff;
+  }
+  .w-220 {
+      width: 220px;
+  }
+  .home-btn{
+    width:100%;
+    padding:0px 10px;
+    background: $bdcolor;
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    line-height: 2.8;
+    display: block;
+    Img:nth-child(1){
+      width:16px;
+      margin-right:10px;
+      margin-top:-2px;
+    }
+    Img:nth-child(3){
+      position: absolute;
+      height:10px;
+      right: 10px;
+      top: 17px;
+    }
+  }
+  .home-btn1{
+    margin-top:10px;
+    &:after{
+      content: " ";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid rgba(88,89,91,0.5);
+      color: rgba(88,89,91,0.5);
+      -webkit-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: scaleY(.5);
+      transform: scaleY(.5);
+    }
+  }
+  .home-btn2{
+    margin-bottom:60px;
+  }
+  .partner {
+    padding: 20px;
+    .par-head {
+      background: #fff;
+      width: 100%;
+      box-shadow: $shadow;
+      display: block;
+      img {
+        width: 100%;
+      }
+      p {
+        text-align: center;
+        &:nth-child(2) {
+          font-size: 20px;
+          padding: 20px;
+        }
+        &:nth-child(3) {
+          font-size: 16px;
+          padding: 0px 20px 20px;
+        }
+      }
+    }
+    .par-foot {
+      width: 100%;
+      display: -webkit-box;
+
+      .par-item {
+        background: #fff;
+        -webkit-box-flex: 1;
+        box-shadow: $shadow;
+        display: block;
+        img {
+          width: 100%;
+        }
+        &:nth-child(1) {
+          margin-right: 10px;
+        }
+        &:nth-child(2) {
+          margin-left: 10px;
+        }
+        p {
+
+          text-align: center;
+          padding: 0px 10px;
+          &:nth-child(2) {
+            font-size: 12px;
+            padding: 15px;
+          }
+          &:nth-child(3) {
+            font-size: 14px;
+            padding: 0px 15px 10px;
+          }
+        }
+      }
+    }
+  }
+}

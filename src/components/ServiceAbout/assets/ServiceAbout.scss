@@ -1,0 +1,71 @@
+:global {
+  $comcolor: #11bbbb;
+  .serviceintro {
+    width: 100%;
+    padding: 0px 15px 0px 50px;
+    position: relative;
+    .serviceintro-sidrbar {
+      width: 12px;
+      height: 100%;
+      position: absolute;
+      background: #343333;
+      top: 0px;
+      left: 18px;
+      background: rgba(255,255,255,0.15);
+    }
+
+    .serviceintro-last {
+      padding-bottom: 20px;
+    }
+    .serviceintro-step {
+      width: 100%;
+      padding-top: 15px;
+      .serviceintro-steptitle {
+        font-size: 16px;
+        color: $comcolor;
+        line-height: 1.375;
+        margin-bottom: 5px;
+        position: relative;
+        Img {
+          position: absolute;
+          left: -36px;
+          width: 20px;
+        }
+      }
+      .serviceintro-stepcon {
+        background: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        .serviceintro-stepconhd {
+          width: 100%;
+          font-size: 12px;
+          color: #252525;
+          line-height: 1.777777;
+        }
+        .serviceintro-stepconbd {
+          width: 100%;
+          font-size: 0px;
+          Img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .servicerange {
+    .servicerange-item {
+      padding-bottom: 20px;
+      p {
+        padding: 10px 10px 7px 10px;
+        font-size: 16px;
+        color: #000;
+      }
+      .servicerange-itemimg {
+        width: 100%;
+        Img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
